@@ -1,1 +1,10 @@
-<p>sort-marry works!</p>
+<h1>{{title}}</h1>
+
+<h5>Paste Harem List ($mms for a DM list):</h5>
+<span class="p-float-label">
+    <textarea [(ngModel)]="haremList" [rows]="5" [cols]="30" pInputTextarea [autoResize]="true"></textarea>
+</span>
+
+<div>
+    <p-button label="Copy $SortMarry Command To Clipboard" icon="pi pi-check"></p-button>
+</div>
